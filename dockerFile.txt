@@ -1,0 +1,29 @@
+docker container setup
+apache = 80
+
+running docker container ubuntu not exit
+docker exec -it name/idContainer /bin/bash
+emqx docker run
+#
+mysql docker run
+#docker run --name mysql-5-5 -v /home/supriyanto4id/documentRoot/mysql:/etc/mysql/conf.d -p 8066:3306 -e MYSQL_ROOT_PASSWORD=12345 -d mysql:5.5
+ota w mqtt dashboard run
+#docker run -dit -it -d --name dashboardOTAwMQTT -v /home/supriyanto4id/documentRoot:/var/www/html -p 8081:80  supriyanto4id/otawmqtt:0.1
+#docker run -dit -it -d --name php7Apache2 -v /home/supri/docker/dashboardMQTTwOTA/documentRoot:/var/www/html -p 8011:80 -p 1884:1883  ubuntu:xenial
+
+emqx run
+#docker run -d --name emqx -e EMQX_MQTT__MAX_PACKET_SIZE=2000KB  -p 18083:18083 -p 1883:1883 -p 8080:8080 emqx/emqx:latest
+
+codeigniter config if error 404 not found
+#a2enmod rewrite
+goto 
+#nano /etc/apache2 apache.conf
+werite to file apache.conf
+<Directory /var/www/html/>
+        AllowOverride All
+</Directory>
+finish
+
+
+
+
